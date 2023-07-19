@@ -1,0 +1,10 @@
+.form {
+    position: absolute;
+    z-index: 1;
+}
+
+html, 
+body {
+    overflow: hidden;
+    height: 100%;
+}

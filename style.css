@@ -1,0 +1,56 @@
+.ellipses {
+    position: absolute;
+	background: #f0ffc8;
+	width: 30vw;
+	height: 150vh;
+	border-radius: 50% / 50%;
+    margin-left: -18vw;
+    margin-top: -25vh;
+    z-index: 0;
+}
+
+.bgcolor {
+    position: absolute;
+    z-index: -1;
+    background: #e7e3d4;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+}
+
+.melonwork {
+    position: absolute;
+    z-index: 2; 
+    top: 10%;
+    left: 9vw;
+}
+
+.melonstory {
+    position: absolute;
+    z-index: 2; 
+    top: 40%;
+    left: 10vw;
+}
+
+.melonbox {
+    position: absolute;
+    z-index: 2; 
+    top: 70%;
+    left: 9vw;
+}
+
+a {
+    text-decoration: none;
+    color: #42c4bf;
+}
+
+a:hover {
+    color: #be8125;
+}
+
+html, 
+body {
+    overflow: hidden;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
