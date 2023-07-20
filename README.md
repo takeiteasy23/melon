@@ -1,6 +1,6 @@
 # melon
 個人插畫瀏覽用小網站，佛系維運
-![點這裡](https://takeiteasy23.github.io/melon/)
+[點這裡](https://takeiteasy23.github.io/melon/)
 
 ### 更新紀錄
 + 2023.07.20 third commit - 丟一張以前畫的圖上來看看
