@@ -19,24 +19,129 @@
 }
 
 .melonwork {
-    position: absolute;
+    position: relative;
     z-index: 2; 
-    top: 10%;
+    top: 10vh;
     left: 9vw;
 }
 
-.melonstory {
+.bgforwork {
     position: absolute;
+    z-index: 1;
+    width: 11em;
+    height: 2em;
+    top: 1vh;
+    left: 2vh;
+    background: #f09c7a;
+    transform: rotate(-2deg) skew(-8deg);
+    opacity: 0.6;
+}
+
+.melonwork:hover .bgforwork {
+    
+    background: #f0bb7a;
+    transform: rotate(2deg) skew(8deg);
+    opacity: 0.6;
+}
+
+.worktext {
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.melonstory {
+    position: relative;
     z-index: 2; 
     top: 40%;
     left: 10vw;
 }
 
-.melonbox {
+.bgforstory {
     position: absolute;
-    z-index: 2; 
+    z-index: 1;
+    width: 12em;
+    height: 1em;
+    top: 2vh;
+    left: 2vw; 
+    background: #81a49d;
+    transform: rotate(-4deg) skew(8deg);
+    opacity: 0.3;
+}
+
+.melonstory:hover .bgforstory {
+    height: 2em;
+    background: #87b2a2;
+    transform: rotate(2deg) skew(-6deg);
+    opacity: 0.4;
+}
+
+.storytext {
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.melonbox {
+    position: relative;   
+    z-index: 2;
     top: 70%;
     left: 9vw;
+}
+
+.bgforbox {
+    position: absolute;
+    z-index: 1;
+    width: 10em;
+    height: 1.5em;
+    top: 2vh;
+    left: 1vw;
+    background: #ec91d5;
+    transform: rotate(4deg) skew(2deg);
+    opacity: 0.5;
+}
+
+.melonbox:hover .bgforbox {
+    background: #cc5fba;
+    transform: rotate(-4deg) skew(-2deg);
+    opacity: 0.4;
+}
+
+.boxtext {
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    font-size: 2.5em;
+    font-weight: bold;
+} 
+
+@keyframes ani {
+    0% {
+      left: 34vw;
+      top: 18vh;
+    }
+    100% {
+      left: 36vw;
+      top: 19vh;
+      width: 65%;
+    }
+}
+
+.broom {
+    position: absolute;
+    z-index: 0; 
+    width: 60%;
+    left: 34vw;
+    top: 18vh;
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
 }
 
 a {
